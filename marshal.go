@@ -23,3 +23,7 @@ func Marshal(){
 
     fmt.Println(string(data))
 }
+func Sample(){
+    fmt.Println("Sam")
+    fmt.Println("Sample")
+}

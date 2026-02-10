@@ -9,7 +9,7 @@ type Person struct{
 	Age int `json : "age"`
 	
 }
-func main(){
+func Marshal(){
 	p:= Person{
 		Name : "Ganashree",
 		Age :22,

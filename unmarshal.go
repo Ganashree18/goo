@@ -3,16 +3,16 @@ import ("fmt"
 "encoding/json"
 )
 
-type Person struct{
+type Person1 struct{
 	Name string
 	Age int
 }
-func main(){
+func Unmarshal(){
 	p:= `{
 		"Name" : "Ganashree",
 		"Age" :22
     }`
-	var a Person 
+	var a Person1 
 
    err := json.Unmarshal([]byte(p) , &a)
     if err != nil {
